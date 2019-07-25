@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>commerbank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6cdd97f-bb80-4ee7-bed2-7c214f0bbe6b</testCaseGuid>
+   <variable>
+      <defaultValue>'katalon@acomodeo.com'</defaultValue>
+      <description></description>
+      <id>4dfa7ffa-6374-48f8-8691-22c13aa494d2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'TV+RkFXoXoXKT93conZmoCteoDPx/gFjyZpILjkWYqw='</defaultValue>
+      <description></description>
+      <id>7cbef574-b0d6-4dfc-86e8-ba3d8dc9770d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

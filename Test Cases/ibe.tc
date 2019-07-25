@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ibe</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0f54275-89b4-403d-9b07-29c8890ee73a</testCaseGuid>
+   <variable>
+      <defaultValue>'katalon@acomodeo.com'</defaultValue>
+      <description></description>
+      <id>3352f4c8-6752-45cd-b77a-f6a5491653c3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'TV+RkFXoXoXKT93conZmoCteoDPx/gFjyZpILjkWYqw='</defaultValue>
+      <description></description>
+      <id>8c76e8fc-0cf6-45f3-87e3-7b04e48fd068</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

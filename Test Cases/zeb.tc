@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>zeb</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77c8557b-1f81-40fc-bc01-f8da6e6099ab</testCaseGuid>
+   <variable>
+      <defaultValue>'katalon@acomodeo.com'</defaultValue>
+      <description></description>
+      <id>3ec21e4b-4d98-40aa-9329-d448e40bfb91</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'TV+RkFXoXoXKT93conZmoCteoDPx/gFjyZpILjkWYqw='</defaultValue>
+      <description></description>
+      <id>5b68a498-7752-4125-9960-4170bf151fce</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

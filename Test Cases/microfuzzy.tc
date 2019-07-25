@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>microfuzzy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd1b3a14-0299-4b30-852d-36b1b4cfb6d0</testCaseGuid>
+   <variable>
+      <defaultValue>'katalon@acomodeo.com'</defaultValue>
+      <description></description>
+      <id>0e81c3bf-c389-4083-a015-c5f7f7d3a93a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'TV+RkFXoXoXKT93conZmoCteoDPx/gFjyZpILjkWYqw='</defaultValue>
+      <description></description>
+      <id>56974495-c829-49fb-8f0b-d06d99289c76</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

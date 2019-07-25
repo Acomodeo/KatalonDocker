@@ -1,0 +1,204 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestEveryIBE,Firefox 67.0,,,2019-07-25 11:00:45,2019-07-25 11:08:48,8m - 2.734s,INCOMPLETE
+,,,,,,,
+Test Cases/audi,Firefox 67.0,,,2019-07-25 11:00:46,2019-07-25 11:01:23,37.090s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:00:46,2019-07-25 11:00:54,7.753s,PASSED
+"navigateToUrl(""https://audi.acomodeo.com/en/"")",Firefox 67.0,,,2019-07-25 11:00:54,2019-07-25 11:00:58,3.787s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:00:58,2019-07-25 11:01:09,11.024s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:01:09,2019-07-25 11:01:09,0.332s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:01:09,2019-07-25 11:01:12,3.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:01:12,2019-07-25 11:01:12,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:01:12,2019-07-25 11:01:13,0.295s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:01:13,2019-07-25 11:01:19,6.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:01:19,2019-07-25 11:01:19,0.257s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:01:19,2019-07-25 11:01:21,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:01:21,2019-07-25 11:01:21,0.052s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:01:21,2019-07-25 11:01:21,0.008s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:01:21,2019-07-25 11:01:23,1.710s,PASSED
+,,,,,,,
+Test Cases/baldaja,Firefox 67.0,,,2019-07-25 11:01:23,2019-07-25 11:01:56,32.937s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:01:23,2019-07-25 11:01:28,4.802s,PASSED
+"navigateToUrl(""https://baldaja.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:01:28,2019-07-25 11:01:31,2.997s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:01:31,2019-07-25 11:01:42,11.004s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:01:42,2019-07-25 11:01:42,0.296s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:01:42,2019-07-25 11:01:45,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:01:45,2019-07-25 11:01:45,0.191s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:01:45,2019-07-25 11:01:46,0.255s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:01:46,2019-07-25 11:01:52,6.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:01:52,2019-07-25 11:01:52,0.246s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:01:52,2019-07-25 11:01:54,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:01:54,2019-07-25 11:01:54,0.042s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:01:54,2019-07-25 11:01:54,0.003s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:01:54,2019-07-25 11:01:56,1.849s,PASSED
+,,,,,,,
+Test Cases/barmer,Firefox 67.0,,,2019-07-25 11:01:56,2019-07-25 11:02:35,39.077s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:01:56,2019-07-25 11:02:02,5.943s,PASSED
+"navigateToUrl(""https://barmer.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:02:02,2019-07-25 11:02:05,3.010s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:02:05,2019-07-25 11:02:16,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:02:16,2019-07-25 11:02:16,0.273s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:02:16,2019-07-25 11:02:19,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:02:19,2019-07-25 11:02:19,0.189s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:02:19,2019-07-25 11:02:22,2.146s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:02:22,2019-07-25 11:02:28,6.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:02:28,2019-07-25 11:02:28,0.247s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:02:28,2019-07-25 11:02:30,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:02:30,2019-07-25 11:02:30,0.046s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:02:30,2019-07-25 11:02:30,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:02:30,2019-07-25 11:02:35,4.914s,PASSED
+,,,,,,,
+Test Cases/bearingpoing,Firefox 67.0,,,2019-07-25 11:02:35,2019-07-25 11:03:14,39.018s,FAILED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:02:35,2019-07-25 11:02:46,11.208s,PASSED
+"navigateToUrl(""https://bearingpoint.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:02:46,2019-07-25 11:02:50,3.644s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:02:50,2019-07-25 11:03:01,11.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:03:01,2019-07-25 11:03:01,0.448s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:03:01,2019-07-25 11:03:04,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:03:04,2019-07-25 11:03:05,0.184s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:03:05,2019-07-25 11:03:05,0.258s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:03:05,2019-07-25 11:03:11,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:03:11,2019-07-25 11:03:14,2.985s,FAILED
+,,,,,,,
+Test Cases/commerbank,Firefox 67.0,,,2019-07-25 11:03:14,2019-07-25 11:03:48,34.435s,FAILED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:03:14,2019-07-25 11:03:22,8.275s,PASSED
+"navigateToUrl(""https://commerzbank.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:03:22,2019-07-25 11:03:25,3.053s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:03:25,2019-07-25 11:03:36,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:03:36,2019-07-25 11:03:37,0.260s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:03:37,2019-07-25 11:03:40,3.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:03:40,2019-07-25 11:03:40,0.176s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:03:40,2019-07-25 11:03:42,1.923s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:03:42,2019-07-25 11:03:48,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:03:48,2019-07-25 11:03:48,0.403s,FAILED
+,,,,,,,
+Test Cases/covestro,Firefox 67.0,,,2019-07-25 11:03:48,2019-07-25 11:04:24,36.089s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:03:49,2019-07-25 11:03:56,7.747s,PASSED
+"navigateToUrl(""https://covestro.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:03:56,2019-07-25 11:04:00,3.179s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:04:00,2019-07-25 11:04:11,11.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:04:11,2019-07-25 11:04:11,0.266s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:04:11,2019-07-25 11:04:14,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:04:14,2019-07-25 11:04:14,0.185s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:04:14,2019-07-25 11:04:14,0.254s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:04:14,2019-07-25 11:04:20,6.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:04:20,2019-07-25 11:04:21,0.261s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:04:21,2019-07-25 11:04:23,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:04:23,2019-07-25 11:04:23,0.040s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:04:23,2019-07-25 11:04:23,0.003s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:04:23,2019-07-25 11:04:24,1.824s,PASSED
+,,,,,,,
+Test Cases/freshfields,Firefox 67.0,,,2019-07-25 11:04:24,2019-07-25 11:04:57,32.822s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:04:25,2019-07-25 11:04:29,4.726s,PASSED
+"navigateToUrl(""https://freshfields.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:04:29,2019-07-25 11:04:32,3.029s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:04:32,2019-07-25 11:04:43,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:04:43,2019-07-25 11:04:44,0.260s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:04:44,2019-07-25 11:04:47,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:04:47,2019-07-25 11:04:47,0.182s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:04:47,2019-07-25 11:04:47,0.250s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:04:47,2019-07-25 11:04:53,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:04:53,2019-07-25 11:04:53,0.248s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:04:53,2019-07-25 11:04:55,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:04:55,2019-07-25 11:04:55,0.036s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:04:55,2019-07-25 11:04:55,0.003s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:04:55,2019-07-25 11:04:57,1.793s,PASSED
+,,,,,,,
+Test Cases/goomo,Firefox 67.0,,,2019-07-25 11:04:57,2019-07-25 11:05:30,32.755s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:04:57,2019-07-25 11:05:02,4.759s,PASSED
+"navigateToUrl(""https://goomo.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:05:02,2019-07-25 11:05:05,2.854s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:05:05,2019-07-25 11:05:16,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:05:16,2019-07-25 11:05:16,0.267s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:05:16,2019-07-25 11:05:19,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:05:19,2019-07-25 11:05:20,0.180s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:05:20,2019-07-25 11:05:20,0.253s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:05:20,2019-07-25 11:05:26,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:05:26,2019-07-25 11:05:26,0.251s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:05:26,2019-07-25 11:05:28,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:05:28,2019-07-25 11:05:28,0.039s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:05:28,2019-07-25 11:05:28,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:05:28,2019-07-25 11:05:30,1.878s,PASSED
+,,,,,,,
+Test Cases/ibe,Firefox 67.0,,,2019-07-25 11:05:30,2019-07-25 11:06:03,32.537s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:05:30,2019-07-25 11:05:35,4.360s,PASSED
+"navigateToUrl(""https://ibe.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:05:35,2019-07-25 11:05:38,3.150s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:05:38,2019-07-25 11:05:49,11.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:05:49,2019-07-25 11:05:49,0.263s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:05:49,2019-07-25 11:05:52,3.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:05:52,2019-07-25 11:05:52,0.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:05:52,2019-07-25 11:05:52,0.253s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:05:52,2019-07-25 11:05:58,6.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:05:58,2019-07-25 11:05:59,0.251s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:05:59,2019-07-25 11:06:01,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:06:01,2019-07-25 11:06:01,0.037s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:06:01,2019-07-25 11:06:01,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:06:01,2019-07-25 11:06:03,1.767s,PASSED
+,,,,,,,
+Test Cases/microfuzzy,Firefox 67.0,,,2019-07-25 11:06:03,2019-07-25 11:06:35,32.846s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:06:03,2019-07-25 11:06:08,4.756s,PASSED
+"navigateToUrl(""https://microfuzzy.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:06:08,2019-07-25 11:06:10,2.977s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:06:10,2019-07-25 11:06:21,11.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:06:21,2019-07-25 11:06:22,0.268s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:06:22,2019-07-25 11:06:25,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:06:25,2019-07-25 11:06:25,0.187s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:06:25,2019-07-25 11:06:25,0.255s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:06:25,2019-07-25 11:06:31,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:06:31,2019-07-25 11:06:31,0.246s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:06:31,2019-07-25 11:06:33,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:06:33,2019-07-25 11:06:33,0.036s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:06:33,2019-07-25 11:06:34,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:06:34,2019-07-25 11:06:35,1.860s,PASSED
+,,,,,,,
+Test Cases/roche,Firefox 67.0,,,2019-07-25 11:06:35,2019-07-25 11:07:08,32.622s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:06:36,2019-07-25 11:06:40,4.723s,PASSED
+"navigateToUrl(""https://roche.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:06:40,2019-07-25 11:06:43,2.999s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:06:43,2019-07-25 11:06:54,11.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:06:54,2019-07-25 11:06:55,0.260s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:06:55,2019-07-25 11:06:58,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:06:58,2019-07-25 11:06:58,0.174s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:06:58,2019-07-25 11:06:58,0.253s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:06:58,2019-07-25 11:07:04,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:07:04,2019-07-25 11:07:04,0.250s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:07:04,2019-07-25 11:07:06,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:07:06,2019-07-25 11:07:06,0.037s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:07:06,2019-07-25 11:07:06,0.001s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:07:06,2019-07-25 11:07:08,1.669s,PASSED
+,,,,,,,
+Test Cases/roomit,Firefox 67.0,,,2019-07-25 11:07:08,2019-07-25 11:07:41,32.560s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:07:08,2019-07-25 11:07:13,4.723s,PASSED
+"navigateToUrl(""https://roomit.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:07:13,2019-07-25 11:07:16,2.815s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:07:16,2019-07-25 11:07:27,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:07:27,2019-07-25 11:07:27,0.261s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:07:27,2019-07-25 11:07:30,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:07:30,2019-07-25 11:07:30,0.179s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:07:30,2019-07-25 11:07:30,0.260s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:07:30,2019-07-25 11:07:36,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:07:36,2019-07-25 11:07:37,0.253s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:07:37,2019-07-25 11:07:39,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:07:39,2019-07-25 11:07:39,0.037s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:07:39,2019-07-25 11:07:39,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:07:39,2019-07-25 11:07:41,1.773s,PASSED
+,,,,,,,
+Test Cases/tmdfirction,Firefox 67.0,,,2019-07-25 11:07:41,2019-07-25 11:08:13,32.692s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:07:41,2019-07-25 11:07:46,4.778s,PASSED
+"navigateToUrl(""https://tmdfriction.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:07:46,2019-07-25 11:07:48,2.885s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:07:48,2019-07-25 11:07:59,11.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:07:59,2019-07-25 11:08:00,0.265s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:08:00,2019-07-25 11:08:03,3.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:08:03,2019-07-25 11:08:03,0.176s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:08:03,2019-07-25 11:08:03,0.249s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:08:03,2019-07-25 11:08:09,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:08:09,2019-07-25 11:08:09,0.245s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:08:09,2019-07-25 11:08:11,2.002s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:08:11,2019-07-25 11:08:11,0.036s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:08:11,2019-07-25 11:08:11,0.001s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:08:11,2019-07-25 11:08:13,1.772s,PASSED
+,,,,,,,
+Test Cases/zeb,Firefox 67.0,,,2019-07-25 11:08:13,2019-07-25 11:08:48,34.857s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-25 11:08:13,2019-07-25 11:08:18,4.725s,PASSED
+"navigateToUrl(""https://zeb.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:08:18,2019-07-25 11:08:22,3.609s,PASSED
+delay(11),Firefox 67.0,,,2019-07-25 11:08:22,2019-07-25 11:08:33,11.004s,PASSED
+"setText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_email""), username)",Firefox 67.0,,,2019-07-25 11:08:33,2019-07-25 11:08:33,0.269s,PASSED
+delay(3),Firefox 67.0,,,2019-07-25 11:08:33,2019-07-25 11:08:36,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Account Login IBE/input_Register_password""), password)",Firefox 67.0,,,2019-07-25 11:08:36,2019-07-25 11:08:36,0.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Account Login IBE/button_Log in""))",Firefox 67.0,,,2019-07-25 11:08:36,2019-07-25 11:08:38,1.713s,PASSED
+delay(6),Firefox 67.0,,,2019-07-25 11:08:38,2019-07-25 11:08:44,6.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:08:44,2019-07-25 11:08:44,0.252s,PASSED
+delay(2),Firefox 67.0,,,2019-07-25 11:08:44,2019-07-25 11:08:46,2.003s,PASSED
+"hello = getText(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo""))",Firefox 67.0,,,2019-07-25 11:08:46,2019-07-25 11:08:46,0.037s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:08:46,2019-07-25 11:08:46,0.002s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-25 11:08:46,2019-07-25 11:08:48,1.812s,PASSED
