@@ -16,20 +16,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://goomo.acomodeo.com')
-WebUI.delay(11)
-
-WebUI.setText(findTestObject('Object Repository/Page_Account Login IBE/input_Register_email'), username)
+WebUI.navigateToUrl('https://goomo.acomodeo.com/en/')
+WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in'))
 WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Account Login IBE/input_Register_password'), password)
-
-WebUI.click(findTestObject('Object Repository/Page_Account Login IBE/button_Log in'))
-WebUI.delay(11)
-
-WebUI.click(findTestObject('Object Repository/Page_Booking engine for serviced apartments/button_Profile'))
-WebUI.delay(2)
-
-String hello = WebUI.getText(findTestObject('Object Repository/Page_Booking engine for serviced apartments/h4_Hello Katalon Acomodeo'))
+WebUI.setEncryptedText(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'), 
+    password)
+WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in'))
+WebUI.delay(8)
+WebUI.click(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile'))
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo'))
+String hello = WebUI.getText(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo'))
 WebUI.verifyEqual('Hello, Katalon Acomodeo',hello)
 WebUI.closeBrowser()
+

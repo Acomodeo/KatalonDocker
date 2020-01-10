@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestEveryIBE,Firefox 72.0,,,2020-01-10 14:19:10,2020-01-10 14:28:37,9m - 26.603s,INCOMPLETE
+,,,,,,,
+Test Cases/audi,Firefox 72.0,,,2020-01-10 14:19:11,2020-01-10 14:19:56,45.463s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:19:11,2020-01-10 14:19:17,6.445s,PASSED
+"navigateToUrl(""https://audi.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:19:17,2020-01-10 14:19:20,2.854s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:19:20,2020-01-10 14:19:30,10.025s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:19:30,2020-01-10 14:19:31,0.487s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:19:31,2020-01-10 14:19:34,3.004s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:19:34,2020-01-10 14:19:34,0.375s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:19:34,2020-01-10 14:19:35,0.463s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:19:35,2020-01-10 14:19:38,3.004s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:19:38,2020-01-10 14:19:38,0.262s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:19:38,2020-01-10 14:19:46,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:19:46,2020-01-10 14:19:46,0.268s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:19:46,2020-01-10 14:19:49,3.001s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:19:49,2020-01-10 14:19:49,0.247s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:19:49,2020-01-10 14:19:50,0.051s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:19:50,2020-01-10 14:19:50,0.008s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:19:50,2020-01-10 14:19:56,6.522s,PASSED
+,,,,,,,
+Test Cases/baldaja,Firefox 72.0,,,2020-01-10 14:19:56,2020-01-10 14:20:40,43.877s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:19:56,2020-01-10 14:20:02,5.364s,PASSED
+"navigateToUrl(""https://baldaja.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:20:02,2020-01-10 14:20:03,1.665s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:20:03,2020-01-10 14:20:13,10.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:20:13,2020-01-10 14:20:14,0.432s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:20:14,2020-01-10 14:20:17,3.003s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:20:17,2020-01-10 14:20:17,0.346s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:20:17,2020-01-10 14:20:18,0.425s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:20:18,2020-01-10 14:20:21,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:20:21,2020-01-10 14:20:21,0.254s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:20:21,2020-01-10 14:20:29,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:20:29,2020-01-10 14:20:29,0.284s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:20:29,2020-01-10 14:20:32,3.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:20:32,2020-01-10 14:20:32,0.253s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:20:32,2020-01-10 14:20:32,0.042s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:20:32,2020-01-10 14:20:32,0.002s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:20:32,2020-01-10 14:20:40,7.532s,PASSED
+,,,,,,,
+Test Cases/barmer,Firefox 72.0,,,2020-01-10 14:20:40,2020-01-10 14:21:23,43.424s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:20:40,2020-01-10 14:20:45,4.591s,PASSED
+"navigateToUrl(""https://barmer.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:20:45,2020-01-10 14:20:48,2.845s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:20:48,2020-01-10 14:20:58,10.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:20:58,2020-01-10 14:20:58,0.393s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:20:58,2020-01-10 14:21:01,3.002s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:21:01,2020-01-10 14:21:01,0.339s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:21:01,2020-01-10 14:21:02,0.406s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:21:02,2020-01-10 14:21:05,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:21:05,2020-01-10 14:21:05,0.252s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:21:05,2020-01-10 14:21:13,8.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:21:13,2020-01-10 14:21:13,0.256s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:21:13,2020-01-10 14:21:16,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:21:16,2020-01-10 14:21:17,0.251s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:21:17,2020-01-10 14:21:17,0.038s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:21:17,2020-01-10 14:21:17,0.002s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:21:17,2020-01-10 14:21:23,6.800s,PASSED
+,,,,,,,
+Test Cases/bearingpoing,Firefox 72.0,,,2020-01-10 14:21:23,2020-01-10 14:22:09,46.040s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:21:24,2020-01-10 14:21:28,3.986s,PASSED
+"navigateToUrl(""https://bearingpoing.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:21:28,2020-01-10 14:21:29,1.314s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:21:29,2020-01-10 14:21:39,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:21:39,2020-01-10 14:22:09,30.463s,FAILED
+,,,,,,,
+Test Cases/commerbank,Firefox 72.0,,,2020-01-10 14:22:09,2020-01-10 14:22:58,48.252s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:22:10,2020-01-10 14:22:16,6.259s,PASSED
+"navigateToUrl(""https://commerbank.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:22:16,2020-01-10 14:22:17,1.201s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:22:17,2020-01-10 14:22:27,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:22:27,2020-01-10 14:22:58,30.515s,FAILED
+,,,,,,,
+Test Cases/covestro,Firefox 72.0,,,2020-01-10 14:22:58,2020-01-10 14:24:04,1m - 6.155s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:22:58,2020-01-10 14:23:05,6.688s,PASSED
+"navigateToUrl(""https://covestro.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:23:05,2020-01-10 14:23:07,2.709s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:23:07,2020-01-10 14:23:17,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:23:17,2020-01-10 14:23:18,0.403s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:23:18,2020-01-10 14:23:21,3.001s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:23:21,2020-01-10 14:23:21,0.342s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:23:21,2020-01-10 14:23:22,0.406s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:23:22,2020-01-10 14:23:25,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:23:25,2020-01-10 14:23:25,0.256s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:23:25,2020-01-10 14:23:33,8.001s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:23:33,2020-01-10 14:24:04,31.049s,FAILED
+,,,,,,,
+Test Cases/freshfields,Firefox 72.0,,,2020-01-10 14:24:04,2020-01-10 14:24:48,44.449s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:24:04,2020-01-10 14:24:10,6.072s,PASSED
+"navigateToUrl(""https://freshfields.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:24:10,2020-01-10 14:24:13,2.679s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:24:13,2020-01-10 14:24:23,10.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:24:23,2020-01-10 14:24:23,0.397s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:24:23,2020-01-10 14:24:26,3.001s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:24:26,2020-01-10 14:24:27,0.332s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:24:27,2020-01-10 14:24:27,0.402s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:24:27,2020-01-10 14:24:30,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:24:30,2020-01-10 14:24:30,0.252s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:24:30,2020-01-10 14:24:38,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:24:38,2020-01-10 14:24:39,0.265s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:24:39,2020-01-10 14:24:42,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:24:42,2020-01-10 14:24:42,0.242s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:24:42,2020-01-10 14:24:42,0.038s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:24:42,2020-01-10 14:24:42,0.002s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:24:42,2020-01-10 14:24:48,6.432s,PASSED
+,,,,,,,
+Test Cases/goomo,Firefox 72.0,,,2020-01-10 14:24:48,2020-01-10 14:25:33,44.498s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:24:49,2020-01-10 14:24:54,5.090s,PASSED
+"navigateToUrl(""https://goomo.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:24:54,2020-01-10 14:24:57,3.062s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:24:57,2020-01-10 14:25:07,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:25:07,2020-01-10 14:25:07,0.399s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:25:07,2020-01-10 14:25:10,3.002s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:25:10,2020-01-10 14:25:10,0.342s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:25:10,2020-01-10 14:25:11,0.410s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:25:11,2020-01-10 14:25:14,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:25:14,2020-01-10 14:25:14,0.252s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:25:14,2020-01-10 14:25:22,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:25:22,2020-01-10 14:25:22,0.259s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:25:22,2020-01-10 14:25:25,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:25:25,2020-01-10 14:25:26,0.241s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:25:26,2020-01-10 14:25:26,0.037s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:25:26,2020-01-10 14:25:26,0.002s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:25:26,2020-01-10 14:25:33,7.134s,PASSED
+,,,,,,,
+Test Cases/microfuzzy,Firefox 72.0,,,2020-01-10 14:25:33,2020-01-10 14:26:17,43.744s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:25:33,2020-01-10 14:25:38,4.571s,PASSED
+"navigateToUrl(""https://microfuzzy.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:25:38,2020-01-10 14:25:40,2.519s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:25:40,2020-01-10 14:25:50,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:25:50,2020-01-10 14:25:50,0.393s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:25:50,2020-01-10 14:25:53,3.002s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:25:53,2020-01-10 14:25:54,0.340s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:25:54,2020-01-10 14:25:54,0.399s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:25:54,2020-01-10 14:25:57,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:25:57,2020-01-10 14:25:57,0.257s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:25:57,2020-01-10 14:26:05,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:26:05,2020-01-10 14:26:06,0.258s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:26:06,2020-01-10 14:26:09,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:26:09,2020-01-10 14:26:09,0.267s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:26:09,2020-01-10 14:26:09,0.050s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:26:09,2020-01-10 14:26:09,0.002s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:26:09,2020-01-10 14:26:17,7.466s,PASSED
+,,,,,,,
+Test Cases/roche,Firefox 72.0,,,2020-01-10 14:26:17,2020-01-10 14:27:01,44.035s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:26:17,2020-01-10 14:26:21,3.975s,PASSED
+"navigateToUrl(""https://roche.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:26:21,2020-01-10 14:26:23,2.741s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:26:23,2020-01-10 14:26:33,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:26:33,2020-01-10 14:26:34,0.395s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:26:34,2020-01-10 14:26:37,3.002s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:26:37,2020-01-10 14:26:37,0.347s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:26:37,2020-01-10 14:26:38,0.410s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:26:38,2020-01-10 14:26:41,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:26:41,2020-01-10 14:26:41,0.252s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:26:41,2020-01-10 14:26:49,8.001s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:26:49,2020-01-10 14:26:49,0.256s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:26:49,2020-01-10 14:26:52,3.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:26:52,2020-01-10 14:26:52,0.240s,PASSED
+"hello = getText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo""))",Firefox 72.0,,,2020-01-10 14:26:52,2020-01-10 14:26:52,0.038s,PASSED
+"verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:26:52,2020-01-10 14:26:52,0.001s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-10 14:26:52,2020-01-10 14:27:01,8.151s,PASSED
+,,,,,,,
+Test Cases/roomit,Firefox 72.0,,,2020-01-10 14:27:01,2020-01-10 14:28:05,1m - 4.152s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:27:01,2020-01-10 14:27:06,5.091s,PASSED
+"navigateToUrl(""https://roomit.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:27:06,2020-01-10 14:27:08,2.372s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:27:08,2020-01-10 14:27:18,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:27:18,2020-01-10 14:27:19,0.408s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:27:19,2020-01-10 14:27:22,3.002s,PASSED
+"setText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email""), username)",Firefox 72.0,,,2020-01-10 14:27:22,2020-01-10 14:27:22,0.339s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password""), password)",Firefox 72.0,,,2020-01-10 14:27:22,2020-01-10 14:27:22,0.403s,PASSED
+delay(3),Firefox 72.0,,,2020-01-10 14:27:22,2020-01-10 14:27:25,3.003s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in""))",Firefox 72.0,,,2020-01-10 14:27:25,2020-01-10 14:27:26,0.250s,PASSED
+delay(8),Firefox 72.0,,,2020-01-10 14:27:26,2020-01-10 14:27:34,8.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:27:34,2020-01-10 14:28:05,31.059s,FAILED
+,,,,,,,
+Test Cases/tmdfirction,Firefox 72.0,,,2020-01-10 14:28:05,2020-01-10 14:28:37,31.815s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:28:05,2020-01-10 14:28:12,6.752s,PASSED
+"navigateToUrl(""https://tmdfirction.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:28:12,2020-01-10 14:28:13,1.272s,PASSED
+delay(10),Firefox 72.0,,,2020-01-10 14:28:13,2020-01-10 14:28:23,10.002s,PASSED
+"click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:28:23,2020-01-10 14:28:37,13.522s,FAILED
+,,,,,,,
+Test Cases/zeb,Firefox 72.0,,,2020-01-10 14:28:37,2020-01-10 14:28:37,0.379s,FAILED
+"openBrowser("""")",Firefox 72.0,,,2020-01-10 14:28:37,2020-01-10 14:28:37,0.059s,FAILED
