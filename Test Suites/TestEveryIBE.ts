@@ -155,24 +155,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bc6e901-28d0-43dd-81d4-72218c012703</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ibe</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3352f4c8-6752-45cd-b77a-f6a5491653c3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8c76e8fc-0cf6-45f3-87e3-7b04e48fd068</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>288a8044-c89d-454f-b901-68a74c084d28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
