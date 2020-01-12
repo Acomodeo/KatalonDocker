@@ -388,8 +388,8 @@ Session ID: c577b63b3e837da7b17718d21e4abcbe&#xD;
 2019-07-25 10:55:11 - [MESSAGE][PASSED] - Browser is closed</system-out>
             <system-err></system-err>
         </testcase>
-        <testcase name="Test Cases/bearingpoing" classname="Test Cases/bearingpoing" status="PASSED">
-            <system-out>2019-07-25 10:55:11 - [TEST_CASE][PASSED] - Test Cases/bearingpoing: Test Cases/bearingpoing&#xD;
+        <testcase name="Test Cases/bearingpoint" classname="Test Cases/bearingpoint" status="PASSED">
+            <system-out>2019-07-25 10:55:11 - [TEST_CASE][PASSED] - Test Cases/bearingpoint: Test Cases/bearingpoint&#xD;
 &#xD;
 2019-07-25 10:55:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
 &#xD;
@@ -446,8 +446,8 @@ Session ID: c577b63b3e837da7b17718d21e4abcbe&#xD;
 2019-07-25 10:55:40 - [MESSAGE][PASSED] - Browser is closed</system-out>
             <system-err></system-err>
         </testcase>
-        <testcase name="Test Cases/commerbank" classname="Test Cases/commerbank" status="PASSED">
-            <system-out>2019-07-25 10:55:40 - [TEST_CASE][PASSED] - Test Cases/commerbank: Test Cases/commerbank&#xD;
+        <testcase name="Test Cases/commerzbank" classname="Test Cases/commerzbank" status="PASSED">
+            <system-out>2019-07-25 10:55:40 - [TEST_CASE][PASSED] - Test Cases/commerzbank: Test Cases/commerzbank&#xD;
 &#xD;
 2019-07-25 10:55:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
 &#xD;
@@ -910,8 +910,8 @@ Session ID: c577b63b3e837da7b17718d21e4abcbe&#xD;
 2019-07-25 10:59:42 - [MESSAGE][PASSED] - Browser is closed</system-out>
             <system-err></system-err>
         </testcase>
-        <testcase name="Test Cases/tmdfirction" classname="Test Cases/tmdfirction" status="PASSED">
-            <system-out>2019-07-25 10:59:42 - [TEST_CASE][PASSED] - Test Cases/tmdfirction: Test Cases/tmdfirction&#xD;
+        <testcase name="Test Cases/tmdfriction" classname="Test Cases/tmdfriction" status="PASSED">
+            <system-out>2019-07-25 10:59:42 - [TEST_CASE][PASSED] - Test Cases/tmdfriction: Test Cases/tmdfriction&#xD;
 &#xD;
 2019-07-25 10:59:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
 &#xD;

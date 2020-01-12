@@ -42,7 +42,7 @@ delay(2),Chrome 75.0.3770.142,,,2019-07-25 10:55:08,2019-07-25 10:55:10,2.003s,P
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Chrome 75.0.3770.142,,,2019-07-25 10:55:10,2019-07-25 10:55:10,0.002s,PASSED
 closeBrowser(),Chrome 75.0.3770.142,,,2019-07-25 10:55:10,2019-07-25 10:55:11,0.766s,PASSED
 ,,,,,,,
-Test Cases/bearingpoing,Chrome 75.0.3770.142,,,2019-07-25 10:55:11,2019-07-25 10:55:40,29.132s,PASSED
+Test Cases/bearingpoint,Chrome 75.0.3770.142,,,2019-07-25 10:55:11,2019-07-25 10:55:40,29.132s,PASSED
 "openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-25 10:55:11,2019-07-25 10:55:13,2.486s,PASSED
 "navigateToUrl(""https://bearingpoint.acomodeo.com"")",Chrome 75.0.3770.142,,,2019-07-25 10:55:13,2019-07-25 10:55:16,2.222s,PASSED
 delay(11),Chrome 75.0.3770.142,,,2019-07-25 10:55:16,2019-07-25 10:55:27,11.001s,PASSED
@@ -57,7 +57,7 @@ delay(2),Chrome 75.0.3770.142,,,2019-07-25 10:55:37,2019-07-25 10:55:39,2.004s,P
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Chrome 75.0.3770.142,,,2019-07-25 10:55:39,2019-07-25 10:55:39,0.003s,PASSED
 closeBrowser(),Chrome 75.0.3770.142,,,2019-07-25 10:55:39,2019-07-25 10:55:40,0.955s,PASSED
 ,,,,,,,
-Test Cases/commerbank,Chrome 75.0.3770.142,,,2019-07-25 10:55:40,2019-07-25 10:56:10,29.982s,PASSED
+Test Cases/commerzbank,Chrome 75.0.3770.142,,,2019-07-25 10:55:40,2019-07-25 10:56:10,29.982s,PASSED
 "openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-25 10:55:40,2019-07-25 10:55:43,2.615s,PASSED
 "navigateToUrl(""https://commerzbank.acomodeo.com"")",Chrome 75.0.3770.142,,,2019-07-25 10:55:43,2019-07-25 10:55:46,3.112s,PASSED
 delay(11),Chrome 75.0.3770.142,,,2019-07-25 10:55:46,2019-07-25 10:55:57,11.003s,PASSED
@@ -177,7 +177,7 @@ delay(2),Chrome 75.0.3770.142,,,2019-07-25 10:59:39,2019-07-25 10:59:41,2.003s,P
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Chrome 75.0.3770.142,,,2019-07-25 10:59:41,2019-07-25 10:59:41,0.002s,PASSED
 closeBrowser(),Chrome 75.0.3770.142,,,2019-07-25 10:59:41,2019-07-25 10:59:42,0.733s,PASSED
 ,,,,,,,
-Test Cases/tmdfirction,Chrome 75.0.3770.142,,,2019-07-25 10:59:42,2019-07-25 11:00:11,28.998s,PASSED
+Test Cases/tmdfriction,Chrome 75.0.3770.142,,,2019-07-25 10:59:42,2019-07-25 11:00:11,28.998s,PASSED
 "openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-25 10:59:42,2019-07-25 10:59:44,2.517s,PASSED
 "navigateToUrl(""https://tmdfriction.acomodeo.com"")",Chrome 75.0.3770.142,,,2019-07-25 10:59:44,2019-07-25 10:59:47,2.557s,PASSED
 delay(11),Chrome 75.0.3770.142,,,2019-07-25 10:59:47,2019-07-25 10:59:58,11.002s,PASSED

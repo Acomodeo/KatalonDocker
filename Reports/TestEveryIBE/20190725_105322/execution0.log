@@ -1827,12 +1827,12 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startTest</method>
   <thread>1</thread>
-  <message>Start Test Case : Test Cases/bearingpoing</message>
+  <message>Start Test Case : Test Cases/bearingpoint</message>
   <nestedLevel>1</nestedLevel>
-  <property name="name">Test Cases/bearingpoing</property>
+  <property name="name">Test Cases/bearingpoint</property>
   <property name="description"></property>
-  <property name="id">Test Cases/bearingpoing</property>
-  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\bearingpoing.tc</property>
+  <property name="id">Test Cases/bearingpoint</property>
+  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\bearingpoint.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
@@ -2392,7 +2392,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Test Cases/bearingpoing</message>
+  <message>Test Cases/bearingpoint</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
@@ -2403,7 +2403,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
   <thread>1</thread>
-  <message>End Test Case : Test Cases/bearingpoing</message>
+  <message>End Test Case : Test Cases/bearingpoint</message>
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
@@ -2414,12 +2414,12 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startTest</method>
   <thread>1</thread>
-  <message>Start Test Case : Test Cases/commerbank</message>
+  <message>Start Test Case : Test Cases/commerzbank</message>
   <nestedLevel>1</nestedLevel>
-  <property name="name">Test Cases/commerbank</property>
+  <property name="name">Test Cases/commerzbank</property>
   <property name="description"></property>
-  <property name="id">Test Cases/commerbank</property>
-  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\commerbank.tc</property>
+  <property name="id">Test Cases/commerzbank</property>
+  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\commerzbank.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
@@ -2979,7 +2979,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Test Cases/commerbank</message>
+  <message>Test Cases/commerzbank</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
@@ -2990,7 +2990,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
   <thread>1</thread>
-  <message>End Test Case : Test Cases/commerbank</message>
+  <message>End Test Case : Test Cases/commerzbank</message>
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
@@ -7110,12 +7110,12 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startTest</method>
   <thread>1</thread>
-  <message>Start Test Case : Test Cases/tmdfirction</message>
+  <message>Start Test Case : Test Cases/tmdfriction</message>
   <nestedLevel>1</nestedLevel>
-  <property name="name">Test Cases/tmdfirction</property>
+  <property name="name">Test Cases/tmdfriction</property>
   <property name="description"></property>
-  <property name="id">Test Cases/tmdfirction</property>
-  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\tmdfirction.tc</property>
+  <property name="id">Test Cases/tmdfriction</property>
+  <property name="source">C:\\Users\\Antonio\\Katalon Studio\\TestingIBE\\Test Cases\\tmdfriction.tc</property>
   <property name="tag"></property>
   <property name="isOptional">false</property>
 </record>
@@ -7675,7 +7675,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Test Cases/tmdfirction</message>
+  <message>Test Cases/tmdfriction</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
@@ -7686,7 +7686,7 @@
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
   <thread>1</thread>
-  <message>End Test Case : Test Cases/tmdfirction</message>
+  <message>End Test Case : Test Cases/tmdfriction</message>
   <nestedLevel>0</nestedLevel>
 </record>
 <record>

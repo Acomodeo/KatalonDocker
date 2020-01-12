@@ -68,7 +68,7 @@
       <guid>3d7b58fa-f6d4-4447-8145-ec01ac297626</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/bearingpoing</testCaseId>
+      <testCaseId>Test Cases/bearingpoint</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -86,7 +86,7 @@
       <guid>2f15b407-7bb4-4e0d-ab15-e9e1328473e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/commerbank</testCaseId>
+      <testCaseId>Test Cases/commerzbank</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -212,7 +212,7 @@
       <guid>6d717bd2-192d-486e-bdb7-59039a7cac7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/tmdfirction</testCaseId>
+      <testCaseId>Test Cases/tmdfriction</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

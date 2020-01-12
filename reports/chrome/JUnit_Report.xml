@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestEveryIBE" time="437" tests="13" failures="0" errors="0">
+    <testsuite name="TestEveryIBE" tests="13" failures="0" errors="0" time="437" timestamp="2020-01-12 13:09:59" hostname="root - b8f49769a9df" id="Test Suites/TestEveryIBE">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20200112_130957/TestEveryIBE/20200112_130957"/>
+            <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20200112_130957/TestEveryIBE/20200112_130957/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="root - b8f49769a9df"/>
+            <property name="os" value="Linux 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.90"/>
+            <property name="hostAddress" value="172.17.0.2"/>
+            <property name="sessionId" value="b8779c5a8b80b943843e374752f68168"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Linux"/>
+        </properties>
+        <testcase name="Test Cases/audi" classname="Test Cases/audi" status="PASSED">
+            <system-out>2020-01-12 13:09:59 - [TEST_CASE][PASSED] - Test Cases/audi: Test Cases/audi
+
+2020-01-12 13:09:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:09:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-12 13:10:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:10:00 - [TEST_STEP][PASSED] - navigateToUrl("https://audi.acomodeo.com/en/"): Navigate to 'https://audi.acomodeo.com/en/' successfully
+
+2020-01-12 13:10:07 - [MESSAGE][PASSED] - Navigate to 'https://audi.acomodeo.com/en/' successfully
+
+2020-01-12 13:10:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:10:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:10:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:10:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:10:21 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:10:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:10:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:10:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:10:25 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:10:33 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:10:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:10:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:10:36 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:10:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:10:36 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:10:36 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:10:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:10:36 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/baldaja" classname="Test Cases/baldaja" status="PASSED">
+            <system-out>2020-01-12 13:10:37 - [TEST_CASE][PASSED] - Test Cases/baldaja: Test Cases/baldaja
+
+2020-01-12 13:10:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:10:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:10:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:10:37 - [TEST_STEP][PASSED] - navigateToUrl("https://baldaja.acomodeo.com/en/"): Navigate to 'https://baldaja.acomodeo.com/en/' successfully
+
+2020-01-12 13:10:38 - [MESSAGE][PASSED] - Navigate to 'https://baldaja.acomodeo.com/en/' successfully
+
+2020-01-12 13:10:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:10:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:10:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:10:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:10:52 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:10:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:10:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:10:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:10:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:10:56 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:11:04 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:11:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:11:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:11:07 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:11:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:11:07 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:11:07 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:11:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:11:07 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/barmer" classname="Test Cases/barmer" status="PASSED">
+            <system-out>2020-01-12 13:11:07 - [TEST_CASE][PASSED] - Test Cases/barmer: Test Cases/barmer
+
+2020-01-12 13:11:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:11:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:11:08 - [TEST_STEP][PASSED] - navigateToUrl("https://barmer.acomodeo.com/en/"): Navigate to 'https://barmer.acomodeo.com/en/' successfully
+
+2020-01-12 13:11:15 - [MESSAGE][PASSED] - Navigate to 'https://barmer.acomodeo.com/en/' successfully
+
+2020-01-12 13:11:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:11:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:11:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:11:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:11:28 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:11:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:11:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:11:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:11:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:11:32 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:11:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:11:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:11:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:11:44 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:11:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:11:44 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:11:44 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:11:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:11:44 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/bearingpoint" classname="Test Cases/bearingpoint" status="PASSED">
+            <system-out>2020-01-12 13:11:44 - [TEST_CASE][PASSED] - Test Cases/bearingpoint: Test Cases/bearingpoint
+
+2020-01-12 13:11:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:11:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:11:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:11:44 - [TEST_STEP][PASSED] - navigateToUrl("https://bearingpoint.acomodeo.com/en/"): Navigate to 'https://bearingpoint.acomodeo.com/en/' successfully
+
+2020-01-12 13:11:46 - [MESSAGE][PASSED] - Navigate to 'https://bearingpoint.acomodeo.com/en/' successfully
+
+2020-01-12 13:11:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:11:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:11:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:11:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:00 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:12:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:12:04 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:12:12 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:12:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/commerzbank" classname="Test Cases/commerzbank" status="PASSED">
+            <system-out>2020-01-12 13:12:15 - [TEST_CASE][PASSED] - Test Cases/commerzbank: Test Cases/commerzbank
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:12:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:12:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:12:15 - [TEST_STEP][PASSED] - navigateToUrl("https://commerzbank.acomodeo.com/en/"): Navigate to 'https://commerzbank.acomodeo.com/en/' successfully
+
+2020-01-12 13:12:17 - [MESSAGE][PASSED] - Navigate to 'https://commerzbank.acomodeo.com/en/' successfully
+
+2020-01-12 13:12:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:12:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:12:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:12:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:12:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:31 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:12:31 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:12:39 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:12:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/covestro" classname="Test Cases/covestro" status="PASSED">
+            <system-out>2020-01-12 13:12:43 - [TEST_CASE][PASSED] - Test Cases/covestro: Test Cases/covestro
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:12:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:12:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:12:43 - [TEST_STEP][PASSED] - navigateToUrl("https://covestro.acomodeo.com/en/"): Navigate to 'https://covestro.acomodeo.com/en/' successfully
+
+2020-01-12 13:12:45 - [MESSAGE][PASSED] - Navigate to 'https://covestro.acomodeo.com/en/' successfully
+
+2020-01-12 13:12:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:12:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:12:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:12:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:58 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:12:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:12:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-12 13:13:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-12 13:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:13:04 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:13:12 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:13:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/freshfields" classname="Test Cases/freshfields" status="PASSED">
+            <system-out>2020-01-12 13:13:16 - [TEST_CASE][PASSED] - Test Cases/freshfields: Test Cases/freshfields
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:13:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:13:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:13:16 - [TEST_STEP][PASSED] - navigateToUrl("https://freshfields.acomodeo.com/en/"): Navigate to 'https://freshfields.acomodeo.com/en/' successfully
+
+2020-01-12 13:13:19 - [MESSAGE][PASSED] - Navigate to 'https://freshfields.acomodeo.com/en/' successfully
+
+2020-01-12 13:13:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:13:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:13:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:13:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:13:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:13:33 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:13:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:13:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:13:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-12 13:13:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-12 13:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:13:38 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:13:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:13:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/goomo" classname="Test Cases/goomo" status="PASSED">
+            <system-out>2020-01-12 13:13:50 - [TEST_CASE][PASSED] - Test Cases/goomo: Test Cases/goomo
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:13:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:13:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:13:50 - [TEST_STEP][PASSED] - navigateToUrl("https://goomo.acomodeo.com/en/"): Navigate to 'https://goomo.acomodeo.com/en/' successfully
+
+2020-01-12 13:13:52 - [MESSAGE][PASSED] - Navigate to 'https://goomo.acomodeo.com/en/' successfully
+
+2020-01-12 13:13:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:14:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:14:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:14:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:14:06 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:14:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:14:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:14:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-12 13:14:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-12 13:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:14:12 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:14:20 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:14:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:14:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:14:24 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:14:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:14:24 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:14:24 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:14:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:14:24 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/microfuzzy" classname="Test Cases/microfuzzy" status="PASSED">
+            <system-out>2020-01-12 13:14:24 - [TEST_CASE][PASSED] - Test Cases/microfuzzy: Test Cases/microfuzzy
+
+2020-01-12 13:14:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:14:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:14:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:14:25 - [TEST_STEP][PASSED] - navigateToUrl("https://microfuzzy.acomodeo.com/en/"): Navigate to 'https://microfuzzy.acomodeo.com/en/' successfully
+
+2020-01-12 13:14:31 - [MESSAGE][PASSED] - Navigate to 'https://microfuzzy.acomodeo.com/en/' successfully
+
+2020-01-12 13:14:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:14:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:14:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:14:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:14:45 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:14:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:14:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:14:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:14:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:14:49 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:14:57 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:14:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:15:00 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:15:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:15:00 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:15:00 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:15:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:15:00 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/roche" classname="Test Cases/roche" status="PASSED">
+            <system-out>2020-01-12 13:15:00 - [TEST_CASE][PASSED] - Test Cases/roche: Test Cases/roche
+
+2020-01-12 13:15:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:15:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:15:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:15:01 - [TEST_STEP][PASSED] - navigateToUrl("https://roche.acomodeo.com/en/"): Navigate to 'https://roche.acomodeo.com/en/' successfully
+
+2020-01-12 13:15:03 - [MESSAGE][PASSED] - Navigate to 'https://roche.acomodeo.com/en/' successfully
+
+2020-01-12 13:15:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:15:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:15:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:15:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:15:17 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:15:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:15:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:15:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:15:22 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:15:30 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:15:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:15:33 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:15:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:15:33 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:15:33 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:15:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:15:33 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/roomit" classname="Test Cases/roomit" status="PASSED">
+            <system-out>2020-01-12 13:15:33 - [TEST_CASE][PASSED] - Test Cases/roomit: Test Cases/roomit
+
+2020-01-12 13:15:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:15:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:15:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:15:34 - [TEST_STEP][PASSED] - navigateToUrl("https://roomit.acomodeo.com/en/"): Navigate to 'https://roomit.acomodeo.com/en/' successfully
+
+2020-01-12 13:15:40 - [MESSAGE][PASSED] - Navigate to 'https://roomit.acomodeo.com/en/' successfully
+
+2020-01-12 13:15:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:15:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:15:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:15:54 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:15:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:15:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:15:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:15:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:15:59 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:16:07 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:16:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:16:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:16:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:16:10 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:16:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:16:10 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:16:10 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:16:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:16:10 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/tmdfriction" classname="Test Cases/tmdfriction" status="PASSED">
+            <system-out>2020-01-12 13:16:10 - [TEST_CASE][PASSED] - Test Cases/tmdfriction: Test Cases/tmdfriction
+
+2020-01-12 13:16:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:16:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:16:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:16:11 - [TEST_STEP][PASSED] - navigateToUrl("https://tmdfriction.acomodeo.com/en/"): Navigate to 'https://tmdfriction.acomodeo.com/en/' successfully
+
+2020-01-12 13:16:14 - [MESSAGE][PASSED] - Navigate to 'https://tmdfriction.acomodeo.com/en/' successfully
+
+2020-01-12 13:16:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:16:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:16:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:16:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:16:28 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:16:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:16:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:16:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:16:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:16:32 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:16:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:16:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:16:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:16:43 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:16:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:16:43 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:16:43 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:16:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:16:43 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/zeb" classname="Test Cases/zeb" status="PASSED">
+            <system-out>2020-01-12 13:16:43 - [TEST_CASE][PASSED] - Test Cases/zeb: Test Cases/zeb
+
+2020-01-12 13:16:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-12 13:16:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-12 13:16:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-12 13:16:44 - [TEST_STEP][PASSED] - navigateToUrl("https://zeb.acomodeo.com/en/"): Navigate to 'https://zeb.acomodeo.com/en/' successfully
+
+2020-01-12 13:16:46 - [MESSAGE][PASSED] - Navigate to 'https://zeb.acomodeo.com/en/' successfully
+
+2020-01-12 13:16:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-12 13:16:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-12 13:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in' is clicked on
+
+2020-01-12 13:16:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:16:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:16:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email"), username): Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:17:00 - [MESSAGE][PASSED] - Text 'katalon@acomodeo.com' is set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_email'
+
+2020-01-12 13:17:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password"), password): Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:17:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/input_Register_password'
+
+2020-01-12 13:17:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:17:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/span_Log in' is clicked on
+
+2020-01-12 13:17:05 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2020-01-12 13:17:13 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-01-12 13:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile' is clicked on
+
+2020-01-12 13:17:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-01-12 13:17:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-01-12 13:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is clicked on
+
+2020-01-12 13:17:16 - [TEST_STEP][PASSED] - hello = getText(findTestObject("Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo")): Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:17:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/katalonIBE/Page_Home  Audi Long Stay/h4_Hello Katalon Acomodeo' is: 'Hello, Katalon Acomodeo'
+
+2020-01-12 13:17:16 - [TEST_STEP][PASSED] - verifyEqual("Hello, Katalon Acomodeo", hello): Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:17:16 - [MESSAGE][PASSED] - Actual object 'Hello, Katalon Acomodeo' and expected object 'Hello, Katalon Acomodeo' are equal
+
+2020-01-12 13:17:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-12 13:17:17 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-01-12 13:09:59 - [TEST_SUITE][INCOMPLETE] - TestEveryIBE: null</system-out>
+        <system-err>2020-01-12 13:09:59 - [TEST_SUITE][INCOMPLETE] - TestEveryIBE: null</system-err>
+    </testsuite>
+</testsuites>

@@ -55,15 +55,15 @@ delay(3),Firefox 72.0,,,2020-01-10 14:21:13,2020-01-10 14:21:16,3.002s,PASSED
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 72.0,,,2020-01-10 14:21:17,2020-01-10 14:21:17,0.002s,PASSED
 closeBrowser(),Firefox 72.0,,,2020-01-10 14:21:17,2020-01-10 14:21:23,6.800s,PASSED
 ,,,,,,,
-Test Cases/bearingpoing,Firefox 72.0,,,2020-01-10 14:21:23,2020-01-10 14:22:09,46.040s,FAILED
+Test Cases/bearingpoint,Firefox 72.0,,,2020-01-10 14:21:23,2020-01-10 14:22:09,46.040s,FAILED
 "openBrowser("""")",Firefox 72.0,,,2020-01-10 14:21:24,2020-01-10 14:21:28,3.986s,PASSED
-"navigateToUrl(""https://bearingpoing.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:21:28,2020-01-10 14:21:29,1.314s,PASSED
+"navigateToUrl(""https://bearingpoint.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:21:28,2020-01-10 14:21:29,1.314s,PASSED
 delay(10),Firefox 72.0,,,2020-01-10 14:21:29,2020-01-10 14:21:39,10.002s,PASSED
 "click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:21:39,2020-01-10 14:22:09,30.463s,FAILED
 ,,,,,,,
-Test Cases/commerbank,Firefox 72.0,,,2020-01-10 14:22:09,2020-01-10 14:22:58,48.252s,FAILED
+Test Cases/commerzbank,Firefox 72.0,,,2020-01-10 14:22:09,2020-01-10 14:22:58,48.252s,FAILED
 "openBrowser("""")",Firefox 72.0,,,2020-01-10 14:22:10,2020-01-10 14:22:16,6.259s,PASSED
-"navigateToUrl(""https://commerbank.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:22:16,2020-01-10 14:22:17,1.201s,PASSED
+"navigateToUrl(""https://commerzbank.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:22:16,2020-01-10 14:22:17,1.201s,PASSED
 delay(10),Firefox 72.0,,,2020-01-10 14:22:17,2020-01-10 14:22:27,10.002s,PASSED
 "click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:22:27,2020-01-10 14:22:58,30.515s,FAILED
 ,,,,,,,
@@ -165,9 +165,9 @@ delay(3),Firefox 72.0,,,2020-01-10 14:27:22,2020-01-10 14:27:25,3.003s,PASSED
 delay(8),Firefox 72.0,,,2020-01-10 14:27:26,2020-01-10 14:27:34,8.002s,PASSED
 "click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Profile""))",Firefox 72.0,,,2020-01-10 14:27:34,2020-01-10 14:28:05,31.059s,FAILED
 ,,,,,,,
-Test Cases/tmdfirction,Firefox 72.0,,,2020-01-10 14:28:05,2020-01-10 14:28:37,31.815s,FAILED
+Test Cases/tmdfriction,Firefox 72.0,,,2020-01-10 14:28:05,2020-01-10 14:28:37,31.815s,FAILED
 "openBrowser("""")",Firefox 72.0,,,2020-01-10 14:28:05,2020-01-10 14:28:12,6.752s,PASSED
-"navigateToUrl(""https://tmdfirction.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:28:12,2020-01-10 14:28:13,1.272s,PASSED
+"navigateToUrl(""https://tmdfriction.acomodeo.com/en/"")",Firefox 72.0,,,2020-01-10 14:28:12,2020-01-10 14:28:13,1.272s,PASSED
 delay(10),Firefox 72.0,,,2020-01-10 14:28:13,2020-01-10 14:28:23,10.002s,PASSED
 "click(findTestObject(""Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in""))",Firefox 72.0,,,2020-01-10 14:28:23,2020-01-10 14:28:37,13.522s,FAILED
 ,,,,,,,

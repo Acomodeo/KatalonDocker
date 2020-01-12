@@ -46,7 +46,7 @@ delay(2),Firefox 67.0,,,2019-07-25 11:02:28,2019-07-25 11:02:30,2.002s,PASSED
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:02:30,2019-07-25 11:02:30,0.002s,PASSED
 closeBrowser(),Firefox 67.0,,,2019-07-25 11:02:30,2019-07-25 11:02:35,4.914s,PASSED
 ,,,,,,,
-Test Cases/bearingpoing,Firefox 67.0,,,2019-07-25 11:02:35,2019-07-25 11:03:14,39.018s,FAILED
+Test Cases/bearingpoint,Firefox 67.0,,,2019-07-25 11:02:35,2019-07-25 11:03:14,39.018s,FAILED
 "openBrowser("""")",Firefox 67.0,,,2019-07-25 11:02:35,2019-07-25 11:02:46,11.208s,PASSED
 "navigateToUrl(""https://bearingpoint.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:02:46,2019-07-25 11:02:50,3.644s,PASSED
 delay(11),Firefox 67.0,,,2019-07-25 11:02:50,2019-07-25 11:03:01,11.002s,PASSED
@@ -57,7 +57,7 @@ delay(3),Firefox 67.0,,,2019-07-25 11:03:01,2019-07-25 11:03:04,3.003s,PASSED
 delay(6),Firefox 67.0,,,2019-07-25 11:03:05,2019-07-25 11:03:11,6.002s,PASSED
 "click(findTestObject(""Object Repository/Page_Booking engine for serviced apartments/button_Profile""))",Firefox 67.0,,,2019-07-25 11:03:11,2019-07-25 11:03:14,2.985s,FAILED
 ,,,,,,,
-Test Cases/commerbank,Firefox 67.0,,,2019-07-25 11:03:14,2019-07-25 11:03:48,34.435s,FAILED
+Test Cases/commerzbank,Firefox 67.0,,,2019-07-25 11:03:14,2019-07-25 11:03:48,34.435s,FAILED
 "openBrowser("""")",Firefox 67.0,,,2019-07-25 11:03:14,2019-07-25 11:03:22,8.275s,PASSED
 "navigateToUrl(""https://commerzbank.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:03:22,2019-07-25 11:03:25,3.053s,PASSED
 delay(11),Firefox 67.0,,,2019-07-25 11:03:25,2019-07-25 11:03:36,11.003s,PASSED
@@ -173,7 +173,7 @@ delay(2),Firefox 67.0,,,2019-07-25 11:07:37,2019-07-25 11:07:39,2.002s,PASSED
 "verifyEqual(""Hello, Katalon Acomodeo"", hello)",Firefox 67.0,,,2019-07-25 11:07:39,2019-07-25 11:07:39,0.002s,PASSED
 closeBrowser(),Firefox 67.0,,,2019-07-25 11:07:39,2019-07-25 11:07:41,1.773s,PASSED
 ,,,,,,,
-Test Cases/tmdfirction,Firefox 67.0,,,2019-07-25 11:07:41,2019-07-25 11:08:13,32.692s,PASSED
+Test Cases/tmdfriction,Firefox 67.0,,,2019-07-25 11:07:41,2019-07-25 11:08:13,32.692s,PASSED
 "openBrowser("""")",Firefox 67.0,,,2019-07-25 11:07:41,2019-07-25 11:07:46,4.778s,PASSED
 "navigateToUrl(""https://tmdfriction.acomodeo.com"")",Firefox 67.0,,,2019-07-25 11:07:46,2019-07-25 11:07:48,2.885s,PASSED
 delay(11),Firefox 67.0,,,2019-07-25 11:07:48,2019-07-25 11:07:59,11.003s,PASSED

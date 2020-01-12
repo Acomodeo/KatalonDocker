@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://tmdfirction.acomodeo.com/en/')
+WebUI.navigateToUrl('https://tmdfriction.acomodeo.com/en/')
 WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/katalonIBE/Page_Home  Audi Long Stay/button_Log in'))
 WebUI.delay(3)
